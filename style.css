@@ -33,6 +33,7 @@ header .logo {
 
 header ul {
     list-style: none;
+    display: inline;
 }
 
 header ul li{
@@ -63,7 +64,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+button.dark:hover {
    padding: 7px;
 }
 
@@ -115,11 +116,37 @@ footer div {
     margin-right: auto;
 }
 
+.open-btn, .close-btn {
+  display: none;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    color: green;
+ }
+
 
 @media screen and (max-width: 640px) {
 
     .logo {
         display: none;
     }
+   header ul {
+        display: none;
+    }
 
+   
+    .close-btn {      
+        display: none;
+    }
+     
+     .open-btn.active,
+     .close-btn.active {
+         display: block;
+     }
+     
+     .show {
+         display: inline;
+     }
+     
+     
 }

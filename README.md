@@ -77,9 +77,21 @@ The project demonstrates how to dynamically create HTML elements, organize JavaS
 
 ##
 
-### Homepage (Mobile Screen)
+### Homepage (Mobile Screen with a closed Menu )
 
-![Homepage](screenshots/homepage_mobile.png)
+![Homepage](screenshots/homepage_mobile_close.png)
+
+##
+
+### Homepage (Mobile Screen with an open Menu)
+
+![Homepage](screenshots/homepage_mobile_open.png)
+
+##
+
+### Homepage (Mobile Screen in a dark mode)
+
+![Homepage](screenshots/homepage_mobile_dark.png)
 
 ##
 
@@ -109,16 +121,6 @@ This project was developed to practice:
 
 ---
 
-## Future Improvements
-
-* Search Products
-* Product Filtering
-* Sorting Products
-* Fetch Product Data from JSON
-* Local Storage Support
-* Responsive Navigation
-
----
 
 ## Author
 
