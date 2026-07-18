@@ -92,6 +92,25 @@ Footer
 
 ![Homepage](screenshots/homepage.png)
 
+### Homepage (Dark Mode)
+
+![Homepage](screenshots/homepage_dark.png)
+
+### Homepage (Mobile Screen)
+
+![Homepage](screenshots/homepage_mobile.png)
+
+
+### Homepage (Select the number of products 2)
+
+![Homepage](screenshots/product_2.png)
+
+
+### Homepage (Select the number of products 6)
+
+![Homepage](screenshots/product_6.png)
+
+
 ---
 
 ## Learning Goals
