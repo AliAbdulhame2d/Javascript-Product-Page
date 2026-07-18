@@ -85,13 +85,13 @@ The project demonstrates how to dynamically create HTML elements, organize JavaS
 
 ### Homepage (Select the number of products 2)
 
-![Homepage](screenshots/product_2.png)
+![Homepage](screenshots/products_2.png)
 
 ##
 
 ### Homepage (Select the number of products 6)
 
-![Homepage](screenshots/product_6.png)
+![Homepage](screenshots/products_6.png)
 
 
 ---
