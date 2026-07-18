@@ -52,29 +52,6 @@ The project demonstrates how to dynamically create HTML elements, organize JavaS
     └── footer.js
 ```
 
----
-
-## Page Structure
-
-```text
-Header
-│
-├── Logo
-├── Product Counter
-└── Dark Mode Button
-
-Main
-│
-└── Product Grid
-    ├── Product 1
-    ├── Product 2
-    ├── ...
-    └── Product N
-
-Footer
-│
-└── Copyright
-```
 
 ---
 
@@ -92,19 +69,25 @@ Footer
 
 ![Homepage](screenshots/homepage.png)
 
+##
+
 ### Homepage (Dark Mode)
 
 ![Homepage](screenshots/homepage_dark.png)
+
+##
 
 ### Homepage (Mobile Screen)
 
 ![Homepage](screenshots/homepage_mobile.png)
 
+##
 
 ### Homepage (Select the number of products 2)
 
 ![Homepage](screenshots/product_2.png)
 
+##
 
 ### Homepage (Select the number of products 6)
 
