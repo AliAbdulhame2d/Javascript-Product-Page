@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container.dark {
+   background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100vh;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #d5c9c9;
+}
+
+header .logo {
+    color: green;
+    font-size: large;
+    font-weight: bold;
+    padding: 18px;
+    border: solid 1px;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin-left: 4px;
+    margin-bottom: 4px;
+    color: green;
+
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px;
+    font-size: 18px;
+    color: green;
+}
+
+header ul li a:hover {
+    color: white;
+    background-color: forestgreen;
+
+}
+
+button {
+    padding: 5px;
+    border: outset 1px green;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+   padding: 7px;
+}
+
+button.dark {
+    background-color: black;
+    color: white;
+}
+
+main {
+    flex: 1;
+    overflow: auto ;
+    padding: 10px;
+}
+
+main .content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+main select {
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+main .product {
+    width: 400px;
+    height: 100px;
+    background-color: #dbe6f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+footer {
+    height: 50px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+}
+
+footer div {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media screen and (max-width: 640px) {
+
+    .logo {
+        display: none;
+    }
+
+}
